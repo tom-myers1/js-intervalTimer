@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+  <title>interval timer</title>
+</head>
+
+<body>
+  <div class="wrapper clearfix">
+    <div class="panel">
+      <div class="panel-text" id="text-0">ready</div>
+      <div class="sets-box">
+        <div class="box-label">set</div>
+        <div class="box-score" id="current-0">0</div>
+      </div>
+      <div class="panel-score" id="score-0">0</div>
+    </div>
+
+    <button class="btn-start"><i class="ion-ios-plus-outline"></i>start</button>
+    <button class="btn-reset"><i class="ion-ios-loop"></i>reset</button>
+    <button class="btn-load"><i class="ion-ios-download-outline"></i>load</button>
+    <button class="btn-save"><i class="ion-ios-download-outline"></i>save</button>
+
+    <input type="number" min="1" max="600" placeholder="work (sec)" class="work">
+    <input type="number" min="1" max="600" placeholder="rest (sec)" class="rest">
+    <input type="number" min="1" max="20" placeholder="sets" class="sets">
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
